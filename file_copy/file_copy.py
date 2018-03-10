@@ -1,6 +1,5 @@
 import os
 import shutil
-import time
 def find_file_path():
     if os.path.exists("abs_path.txt"): os.remove("abs_path.txt")
     path_list=[]
