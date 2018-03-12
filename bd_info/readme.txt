@@ -1,0 +1,1 @@
+socket get board info
