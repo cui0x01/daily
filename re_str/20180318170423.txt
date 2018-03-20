@@ -1,0 +1,131 @@
+show cpu[8C
+  Active SCMIP2 CPU usage : 12.3%
+  Active SCMIP2 MEM usage : 37.4%, 472 Mbyte free
+  
+  Standby SCMIP2 CPU usage : 2.6%
+  Standby SCMIP2 MEM usage : 37.0%, 475 Mbyte free
+ 
+SCMIP2>>show board all-all [19C
+ ----------------------------------------------------------------------------
+  shelf-slot  board-type  status  hardware-version   release-version    up-time
+  1-1         SCMIP2(S)   ok      0206030157A1       iAN8000 2.8.0.47   7 days 22:59:03     
+  1-2         ISDN-J2     ok      0206021112A1       2.e                35 days 02:08:33    
+  1-3         SCMIP2(A)   ok      00                 iAN8000 2.8.0.47   35 days 02:09:32    
+  1-4         ISDN-J      virtual --                 --                 --                  
+  1-5         ISDN-J      virtual --                 --                 --                  
+  1-8         PRI-J       virtual --                 --                 --                  
+  1-10        PRI-J3      ok      0206021109A1       0.8                4 days 01:41:57     
+  1-12        PRI-J       virtual --                 --                 --                  
+  1-13        FXS7        ok      2990124200B2       d.8                35 days 02:08:33    
+  1-14        FXS7        ok      2990124200B2       d.8                35 days 02:08:33    
+  1-15        VPM2        ok      --                 2.5.0              34 days 01:23:54    
+  1-16        VPM2        ok      2233445566A2       2.5.0              35 days 04:15:09    
+  2-2         FXS7-J1     ok      0206030259         d.d                34 days 06:29:48    
+  2-4         PRI-J       virtual --                 --                 --                  
+  2-6         PRI-J       virtual --                 --                 --                  
+  2-8         PRI-J       virtual --                 --                 --                  
+  2-9         FXS7        virtual --                 --                 --                  
+  2-14        ISDN-J      virtual --                 --                 --                  
+  2-15        ISDN-J      virtual --                 --                 --                  
+  3-2         FXS7        ok      2990124200B2       d.d                34 days 06:29:48    
+  3-3         FXS7        virtual --                 --                 --                  
+  3-4         FXS7        virtual --                 --                 --                  
+  3-5         FXS7        virtual --                 --                 --                  
+  3-6         FXS7        virtual --                 --                 --                  
+  3-8         PRI-J       virtual --                 --                 --                  
+  3-10        PRI-J       virtual --                 --                 --                  
+  3-12        PRI-J       virtual --                 --                 --                  
+  3-14        ISDN-J      virtual --                 --                 --                  
+  3-15        ISDN-J      virtual --                 --                 --                  
+  4-2         FXS7-J2     ok      0206021110A1       d.d                34 days 06:29:48    
+  4-4         PRI-J       virtual --                 --                 --                  
+  4-6         PRI-J       virtual --                 --                 --                  
+  4-8         ISDN-J      ok      2990104111A8       2.e                9 days 00:12:02     
+  4-10        PRI-J       ok      0206021075A0       0.8                34 days 06:29:53    
+  4-12        PRI-J       virtual --                 --                 --                  
+  4-14        PRI-J       virtual --                 --                 --                  
+ ----------------------------------------------------------------------------
+ 
+SCMIP2>>show switchover[15C
+ 
+SCMIP2>>show alarm all [15C
+ ======================================================
+ Alarm Sequence Number         : 9897
+ Alarm class                   : Communication
+ Entity type                   : BRD
+ Entity instance               : 1-10
+ Severity                      : Major
+ Probable cause                : PRIJ_CPE_DOWN_IND
+ Specific cause                : PRIJ_CPE_COMMU_DOWN
+ Occur time                    : 2018-03-17 07:53:11
+ ======================================================
+ Alarm Sequence Number         : 9890
+ Alarm class                   : Communication
+ Entity type                   : BRI PORT
+ Entity instance               : 4-8-2
+ Severity                      : Minor
+ Probable cause                : LOSS_OF_SIGNAL
+ Specific cause                : BRI loss of signal
+ Occur time                    : 2018-03-16 06:37:53
+ ======================================================
+ Alarm Sequence Number         : 9889
+ Alarm class                   : Communication
+ Entity type                   : BRI PORT
+ Entity instance               : 4-8-1
+ Severity                      : Minor
+ Probable cause                : LOSS_OF_SIGNAL
+ Specific cause                : BRI loss of signal
+ Occur time                    : 2018-03-16 06:37:53
+ ======================================================
+ Alarm Sequence Number         : 9888
+ Alarm class                   : Communication
+ Entity type                   : BRI PORT
+ Entity instance               : 4-8-8
+ Severity                      : Minor
+ Probable cause                : LOSS_OF_SIGNAL
+ Specific cause                : BRI loss of signal
+ Occur time                    : 2018-03-16 06:37:53
+ ======================================================
+ Alarm Sequence Number         : 9887
+ Alarm class                   : Communication
+ Entity type                   : BRI PORT
+ Entity instance               : 4-8-7
+ Severity                      : Minor
+ Probable cause                : LOSS_OF_SIGNAL
+ Specific cause                : BRI loss of signal
+ Occur time                    : 2018-03-16 06:37:53
+ ======================================================
+ Alarm Sequence Number         : 9886
+ Alarm class                   : Communication
+ Entity type                   : BRI PORT
+ Entity instance               : 4-8-6
+ Severity                      : Minor
+ Probable cause                : LOSS_OF_SIGNAL
+ Specific cause                : BRI loss of signal
+ Occur time                    : 2018-03-16 06:37:53
+ ======================================================
+ Alarm Sequence Number         : 9885
+ Alarm class                   : Communication
+ Entity type                   : BRI PORT
+ Entity instance               : 4-8-5
+ Severity                      : Minor
+ Probable cause                : LOSS_OF_SIGNAL
+ Specific cause                : BRI loss of signal
+ Occur time                    : 2018-03-16 06:37:53
+ ======================================================
+ Alarm Sequence Number         : 9884
+ Alarm class                   : Communication
+ Entity type                   : BRI PORT
+ Entity instance               : 4-8-4
+  --- More ---cresub n:0998082200 anw:1280genew l3addr:200 analog
+悸乖冯蔡¨赖撅姜位(000)
+#CRESUBコマンド姜位# 2018/03/19 09:08:23
+cresub n:0998082201 anw:1280genew l3addr:201 analog
+悸乖冯蔡¨赖撅姜位(000)
+#CRESUBコマンド姜位# 2018/03/19 09:08:23
+delsub n:0998082200
+悸乖冯蔡¨赖撅姜位(000)
+#DELSUBコマンド姜位# 2018/03/19 09:08:24
+delsub n:0998082201
+悸乖冯蔡¨赖撅姜位(000)
+#DELSUBコマンド姜位# 2018/03/19 09:08:24

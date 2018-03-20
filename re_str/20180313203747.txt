@@ -1,0 +1,120 @@
+show cpu[8C
+  Active SCMIP2 CPU usage : 16.4%
+  Active SCMIP2 MEM usage : 37.6%, 471 Mbyte free
+  
+  Standby SCMIP2 CPU usage : 4.2%
+  Standby SCMIP2 MEM usage : 37.0%, 475 Mbyte free
+ 
+SCMIP2>>show board all-all [19C
+ ----------------------------------------------------------------------------
+  shelf-slot  board-type  status  hardware-version   release-version    up-time
+  1-1         SCMIP2(S)   ok      0206030157A1       iAN8000 2.8.0.47   3 days 02:32:30     
+  1-2         ISDN-J2     ok      0206021112A1       2.e                30 days 05:42:01    
+  1-3         SCMIP2(A)   ok      00                 iAN8000 2.8.0.47   30 days 05:42:59    
+  1-4         ISDN-J      virtual --                 --                 --                  
+  1-5         ISDN-J      virtual --                 --                 --                  
+  1-8         PRI-J       virtual --                 --                 --                  
+  1-10        PRI-J       virtual --                 --                 --                  
+  1-12        PRI-J       virtual --                 --                 --                  
+  1-13        FXS7        ok      2990124200B2       d.8                30 days 05:42:01    
+  1-14        FXS7        ok      2990124200B2       d.8                30 days 05:42:02    
+  1-15        VPM2        ok      --                 2.5.0              29 days 04:39:49    
+  1-16        VPM2        ok      2233445566A2       2.5.0              30 days 07:31:05    
+  2-2         FXS7-J1     ok      0206030259         d.d                29 days 10:03:17    
+  2-4         PRI-J       virtual --                 --                 --                  
+  2-6         PRI-J       virtual --                 --                 --                  
+  2-8         PRI-J3      ok      0206021109A1       0.8                29 days 10:03:22    
+  2-9         FXS7        virtual --                 --                 --                  
+  2-14        ISDN-J      virtual --                 --                 --                  
+  2-15        ISDN-J      virtual --                 --                 --                  
+  3-2         FXS7        ok      2990124200B2       d.d                29 days 10:03:17    
+  3-3         FXS7        virtual --                 --                 --                  
+  3-4         FXS7        virtual --                 --                 --                  
+  3-5         FXS7        virtual --                 --                 --                  
+  3-6         FXS7        virtual --                 --                 --                  
+  3-8         PRI-J       virtual --                 --                 --                  
+  3-10        PRI-J       virtual --                 --                 --                  
+  3-12        PRI-J       virtual --                 --                 --                  
+  3-14        ISDN-J      virtual --                 --                 --                  
+  3-15        ISDN-J      virtual --                 --                 --                  
+  4-2         FXS7-J2     ok      0206021110A1       d.d                29 days 10:03:17    
+  4-4         PRI-J       virtual --                 --                 --                  
+  4-6         PRI-J       virtual --                 --                 --                  
+  4-8         ISDN-J      ok      2990104111A8       2.e                4 days 03:45:31     
+  4-10        PRI-J       ok      0206021075A0       0.8                29 days 10:03:22    
+  4-12        PRI-J       virtual --                 --                 --                  
+  4-14        PRI-J       virtual --                 --                 --                  
+ ----------------------------------------------------------------------------
+ 
+SCMIP2>>show switchover[15C
+ 
+SCMIP2>>show alarm all [15C
+ ======================================================
+ Alarm Sequence Number         : 9832
+ Alarm class                   : Equipment
+ Entity type                   : CLK
+ Entity instance               : N/A
+ Severity                      : Major
+ Probable cause                : TIMING_PROBLEM
+ Specific cause                : SLOT1_FP_CLOCK_FAIL
+ Occur time                    : 2018-03-11 10:09:01
+ ======================================================
+ Alarm Sequence Number         : 9831
+ Alarm class                   : Equipment
+ Entity type                   : CLK
+ Entity instance               : N/A
+ Severity                      : Major
+ Probable cause                : TIMING_PROBLEM
+ Specific cause                : SLOT1_BP_CLOCK_FAIL
+ Occur time                    : 2018-03-11 10:09:01
+ ======================================================
+ Alarm Sequence Number         : 6886
+ Alarm class                   : Communication
+ Entity type                   : BRD
+ Entity instance               : 3-14
+ Severity                      : Critical
+ Probable cause                : MAINTENANCE_ALARM
+ Specific cause                : BOARD_FAILURE_OR_EJECT_DISABLED
+ Occur time                    : 2018-03-08 02:16:54
+ ======================================================
+ Alarm Sequence Number         : 6877
+ Alarm class                   : Communication
+ Entity type                   : BRD
+ Entity instance               : 1-10
+ Severity                      : Critical
+ Probable cause                : MAINTENANCE_ALARM
+ Specific cause                : BOARD_FAILURE_OR_EJECT_DISABLED
+ Occur time                    : 2018-03-07 09:09:21
+ ======================================================
+ Alarm Sequence Number         : 6868
+ Alarm class                   : Processing
+ Entity type                   : BRD
+ Entity instance               : 1-16
+ Severity                      : Major
+ Probable cause                : VERSION_MISMATCH
+ Specific cause                : BOARD_VERSION_MISMATCH
+ Occur time                    : 2018-03-07 02:52:23
+ ======================================================
+ Alarm Sequence Number         : 6839
+ Alarm class                   : Communication
+ Entity type                   : BRD
+ Entity instance               : 3-8
+ Severity                      : Critical
+ Probable cause                : MAINTENANCE_ALARM
+ Specific cause                : BOARD_FAILURE_OR_EJECT_DISABLED
+ Occur time                    : 2018-03-06 07:21:37
+ ======================================================
+ Alarm Sequence Number         : 6838
+ Alarm class                   : Communication
+ Entity type                   : BRD
+ Entity instance               : 2-14
+ Severity                      : Critical
+ Probable cause                : MAINTENANCE_ALARM
+ Specific cause                : BOARD_FAILURE_OR_EJECT_DISABLED
+ Occur time                    : 2018-03-06 07:17:24
+ ======================================================
+ Alarm Sequence Number         : 6803
+ Alarm class                   : Communication
+ Entity type                   : BRD
+ Entity instance               : 4-10
+  --- More ---
