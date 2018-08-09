@@ -1,0 +1,2 @@
+upload.php为接收上传文件脚本
+uploads目录保存上传文件
