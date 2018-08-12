@@ -45,10 +45,10 @@ def send_url(url,folder):
             fields={'uploaded': (filename, open(os.path.join(folder_path,filename), 'rb'), 'text/plain')}
         )
         '''
-        Content-Disposition: form-data; name="uploaded"; filename="aa.php"
-        ÕâÀïµÄfilesÀïuploaded   ¾ÍÊÇmultipartĞ­Òéname×Ö¶ÎÀïÃæµÄuploaded
-        ·şÎñ¶ËÒ²ÊÇ¸ù¾İisset( $_FILES[ 'uploaded' ]£¬multipartĞ­Òéname×Ö¶ÎÀïÃæµÄuploaded½ÓÊÕÎÄ¼ş¡£
-        Èç¹ûĞŞ¸Ä£¬Òª±£³ÖÒ»ÖÂ¡£
+        Content-Disposition:form-data; name="uploaded"; filename="aa.php"
+        è¿™é‡Œçš„filesé‡Œuploaded   å°±æ˜¯multipartåè®®nameå­—æ®µé‡Œé¢çš„uploaded
+        æœåŠ¡ç«¯ä¹Ÿæ˜¯æ ¹æ®isset( $_FILES[ 'uploaded' ]ï¼Œmultipartåè®®nameå­—æ®µé‡Œé¢çš„uploadedæ¥æ”¶æ–‡ä»¶ã€‚
+        å¦‚æœä¿®æ”¹ï¼Œè¦ä¿æŒä¸€è‡´ã€‚
         '''
         #print(len(files))
         time.sleep(1)
